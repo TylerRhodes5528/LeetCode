@@ -1,13 +1,17 @@
 // Main file for my LeetCode Solutions
 // Author: Tyler Rhodes
-
 #include <iostream>
+#include "Solutions/Problem11.cpp"
 
 int main() {
 	//--------Exit Variables Init------------------
 	bool exit = false;
 	char exitChoice;
 	//---------------------------------------------
+	Solution3 test;
+	std::vector<int> testVect = { 2, 3, 4, 5, 18, 17, 6 };
+
+	std::cout << test.maxArea(testVect);
 
 	while (!exit) {
 

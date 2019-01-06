@@ -1,4 +1,5 @@
 // LeetCode 26. Remove Duplicates From Sorted Array
+#pragma once
 #include <vector>
 class Solution {
 public:
